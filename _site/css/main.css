@@ -1,4 +1,4 @@
-/* 
+/*
 Title: Hikari
 Description: : A responsive & simple theme for Jekyll
 Version: 1.0
@@ -12,6 +12,44 @@ License: MIT License http://opensource.org/licenses/MIT
 /* Common
 /*
 /*****************************************************************************/
+
+@font-face
+{
+font-family: ProximaNovaLight;
+src: url(../assets/fonts/ProximaNova-Light.otf);
+}
+
+@font-face
+{
+font-family: ProximaNovaRegular;
+src: url(../assets/fonts/ProximaNova-Regular.otf);
+}
+
+@font-face
+{
+font-family: ProximaNovaBold;
+src: url(../assets/fonts/ProximaNova-Bold.otf);
+}
+
+@font-face
+{
+font-family: JubilatLight;
+src: url(../assets/fonts/Jubilat-Light.otf);
+}
+
+@font-face
+{
+font-family: JubilatRegular;
+src: url(../assets/fonts/Jubilat-Regular.otf);
+}
+
+@font-face
+{
+font-family: JubilatBold;
+src: url(../assets/fonts/Jubilat-Bold.otf);
+}
+
+
 
 /* Global Reset */
 
@@ -27,7 +65,7 @@ html, body { width: 100%; height: 100%; }
 body {
   background: #fff;
   color: #444;
-  font: 20px 'Open Sans', sans-serif;
+  font: 20px 'ProximaNovaRegular', sans-serif;
   text-rendering: optimizeLegibility;
 }
 
@@ -125,9 +163,9 @@ header .h-wrap .menu-icon .lines::after {
   content: '';
   transform-origin:         50% 50%;
   -webkit-transform-origin: 50% 50%;
-  transition:         top .3s .6s ease, 
+  transition:         top .3s .6s ease,
                       transform .3s ease;
-  -webkit-transition: top .3s .6s ease, 
+  -webkit-transition: top .3s .6s ease,
                       transform .3s ease;
 }
 
@@ -157,10 +195,10 @@ header .h-wrap .close .lines::before,
 header .h-wrap .close .lines::after {
   top:0;
   width: 30px;
-  -webkit-transition: top .3s ease, 
-                      transform .3s .5s ease;   
-  transition:         top .3s ease, 
-                      transform .3s .5s ease;     
+  -webkit-transition: top .3s ease,
+                      transform .3s .5s ease;
+  transition:         top .3s ease,
+                      transform .3s .5s ease;
 }
 
 header .h-wrap .close .lines::before {
@@ -184,13 +222,13 @@ header .h-wrap .close .lines::after {
   padding: 0px 40px;
   background: #fafafa;
   border-bottom: 0px solid #f1f1f1;
-  -webkit-transition: max-height .35s ease, 
-                      padding-top .35s ease, 
-                      padding-bottom .35s ease, 
+  -webkit-transition: max-height .35s ease,
+                      padding-top .35s ease,
+                      padding-bottom .35s ease,
                       border-width .35s ease;
-  transition:         max-height .35s ease, 
-                      padding-top .35s ease, 
-                      padding-bottom .35s ease, 
+  transition:         max-height .35s ease,
+                      padding-top .35s ease,
+                      padding-bottom .35s ease,
                       border-width .35s ease;
 }
 
@@ -198,13 +236,13 @@ header .h-wrap .close .lines::after {
   max-height: 90%;
   padding: 40px;
   border-width: 1px;
-  -webkit-transition: max-height .35s ease, 
-                      padding-top .35s ease, 
-                      padding-bottom .35s ease, 
+  -webkit-transition: max-height .35s ease,
+                      padding-top .35s ease,
+                      padding-bottom .35s ease,
                       border-width .35s ease;
-  transition:         max-height .35s ease, 
-                      padding-top .35s ease, 
-                      padding-bottom .35s ease, 
+  transition:         max-height .35s ease,
+                      padding-top .35s ease,
+                      padding-bottom .35s ease,
                       border-width .35s ease;
 }
 
@@ -293,9 +331,9 @@ footer small { text-transform: uppercase; }
 ul.posts { color: #236CC1; overflow: hidden; }
 ul.posts li { border-bottom: 1px solid #4492EC; }
 ul.posts li:last-child { border-bottom: none; }
-ul.posts li .p-wrap { background: #589FF1; padding: 50px 40px; transition: all .15s ease-in; }
-ul.posts li .p-wrap:hover { background: #67AAF7; padding-left: 50px; }
-ul.posts li .p-wrap:active { background: #569BEA; }
+ul.posts li .p-wrap {padding: 50px 40px; transition: all .15s ease-in; }
+ul.posts li .p-wrap:hover { padding-left: 50px; }
+ul.posts li .p-wrap:active { }
 ul.posts li .p-wrap:hover::after { content:'\2192'; margin-left: 10px; }
 ul.posts li .p-wrap p { display: inline; margin-bottom: 0; }
 ul.posts li .date { color: #2671C8; padding-right: 20px; }
@@ -386,8 +424,8 @@ section#single-wrap h2,
 section#single-wrap h3,
 section#single-wrap h4,
 section#single-wrap h5,
-section#single-wrap h6 { 
-  padding: 0 40px; 
+section#single-wrap h6 {
+  padding: 0 40px;
   margin-top: 40px;
 }
 
@@ -438,7 +476,7 @@ section#single-wrap img {
 
 #next { right: 40px; }
 
-#prev:active, 
+#prev:active,
 #next:active {
   border-color: #39f;
 }
@@ -489,7 +527,7 @@ section#single-wrap img {
   content: "JavaScript";
 }
 
-.highlight code.html::before, 
+.highlight code.html::before,
 .highlight code.css::before,
 .highlight code.js::before {
   position: absolute;
@@ -498,8 +536,14 @@ section#single-wrap img {
   font-family: 'Open Sans', sans-serif;
   background-color: #fbfbfb;
   border: 1px solid #eee;
-  padding: 4px 10px; 
+  padding: 4px 10px;
   border-radius: 3px 3px 0 0;
+}
+
+/* Added by Collin */
+
+.name_header {
+  text-align: center;
 }
 
 
@@ -517,16 +561,16 @@ section#single-wrap img {
   body { font-size: 17px; }
   header .h-wrap { padding: 40px 30px; }
   header .h-wrap .menu-icon { margin-top: 2px; }
-  #prev, #next { display: none; } 
+  #prev, #next { display: none; }
   ul.posts li .p-wrap { padding: 30px; }
   ul.posts li .p-wrap p { display: block; }
   ul.posts li .p-wrap:hover { padding-left: 40px; }
   ul.posts li .p-wrap:hover::after { content: none; margin: 0; }
   .highlight { margin: 30px 40px 40px; }
-  .highlight code.html::before, 
+  .highlight code.html::before,
   .highlight code.css::before,
   .highlight code.js::before {
-    display: none; 
+    display: none;
   }
 
 }
@@ -558,8 +602,8 @@ section#single-wrap img {
   section#single-wrap h3,
   section#single-wrap h4,
   section#single-wrap h5,
-  section#single-wrap h6 { 
-    padding: 0 20px; 
+  section#single-wrap h6 {
+    padding: 0 20px;
     margin-top: 30px;
   }
 
