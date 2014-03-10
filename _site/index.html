@@ -1,51 +1,182 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Your New Jekyll Site</title>
-        <meta name="viewport" content="width=device-width">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <title>hikari - Fluid, responsive blog theme for Jekyll</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="content-language" content="en-gb" />
+    <meta name="description" content="Fluid, responsive blog theme for Jekyll.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700|Lora:400,700,400italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
+    <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
+</head>
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+    <body> 
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <div id="off-canvas">
+        	<div id="avatar">
+        		<img src="/assets/img/avatar.jpg" alt="Profile Picture" title="wow, very face, such photograph, wow">
+        	</div>
+        	<div id="bio">
+            	<h1>Hi, I'm John Doge.</h1>
+            	<p>I'm a developer, living in Paris, France and this is my personal blog. I share things on <a href="">Github</a>, flex my design muscles on <a href="">Dribbble</a>, share stupid thoughts on <a href="">Twitter</a>. Shoot me an <a href="mailto:">email</a> if you'd like to be in touch.</p>
+        	</div>
+        </div>
 
-    </head>
-    <body>
+        <header>
+        	<div class="h-wrap">
+            	<h1 class="title"><a href="" title="Back to Homepage">hikari</a></h1>
+            	<a class="menu-icon" title="Open Bio"><span class="lines"></span></a>
+            </div>
+        </header>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">Your New Jekyll Site</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+        <main>
 
-          <div id="home">
-  <h1>Blog Posts</h1>
+<div id="home">
   <ul class="posts">
     
-      <li><span>09 Mar 2014</span> &raquo; <a href="/jekyll/update/2014/03/09/welcome-to-jekyll.html">Welcome to Jekyll!</a></li>
+      <li itemscope itemtype="http://schema.org/BlogPosting">
+        <a href="/2014/01/welcome-to-jekyll.html" itemprop="url">
+          <div class="p-wrap">
+            <time datetime="2014-01-28T16:57:51Z" class="date"
+                itemprop="datePublished">
+              28 Jan 2014
+            </time>
+            <p itemprop="name headline">Welcome to Hikari for Jekyll!</p>
+          </div>
+        </a>
+      </li>
+    
+      <li itemscope itemtype="http://schema.org/BlogPosting">
+        <a href="/2014/01/hikari-styling-guide.html" itemprop="url">
+          <div class="p-wrap">
+            <time datetime="2014-01-27T16:57:51Z" class="date"
+                itemprop="datePublished">
+              27 Jan 2014
+            </time>
+            <p itemprop="name headline">Styling guide for Hikari: best practices</p>
+          </div>
+        </a>
+      </li>
+    
+      <li itemscope itemtype="http://schema.org/BlogPosting">
+        <a href="/2014/01/moving-to-tokyo.html" itemprop="url">
+          <div class="p-wrap">
+            <time datetime="2014-01-22T16:57:51Z" class="date"
+                itemprop="datePublished">
+              22 Jan 2014
+            </time>
+            <p itemprop="name headline">Moving to Tokyo, yeeha!</p>
+          </div>
+        </a>
+      </li>
+    
+      <li itemscope itemtype="http://schema.org/BlogPosting">
+        <a href="/2014/01/weekend-in-the-desert.html" itemprop="url">
+          <div class="p-wrap">
+            <time datetime="2014-01-19T16:57:51Z" class="date"
+                itemprop="datePublished">
+              19 Jan 2014
+            </time>
+            <p itemprop="name headline">A week-end in the desert (shawarmas and belly dancers)</p>
+          </div>
+        </a>
+      </li>
+    
+      <li itemscope itemtype="http://schema.org/BlogPosting">
+        <a href="/2014/01/so-much-to-do-so-little-time.html" itemprop="url">
+          <div class="p-wrap">
+            <time datetime="2014-01-10T16:57:51Z" class="date"
+                itemprop="datePublished">
+              10 Jan 2014
+            </time>
+            <p itemprop="name headline">So much to do, so little time</p>
+          </div>
+        </a>
+      </li>
+    
+      <li itemscope itemtype="http://schema.org/BlogPosting">
+        <a href="/2014/01/setting-up-jekyll-on-github-pages.html" itemprop="url">
+          <div class="p-wrap">
+            <time datetime="2014-01-08T16:57:51Z" class="date"
+                itemprop="datePublished">
+              08 Jan 2014
+            </time>
+            <p itemprop="name headline">Setting up Jekyll on Github Pages (is easier than you think)</p>
+          </div>
+        </a>
+      </li>
+    
+      <li itemscope itemtype="http://schema.org/BlogPosting">
+        <a href="/2014/01/how-backbone-changed-my-life.html" itemprop="url">
+          <div class="p-wrap">
+            <time datetime="2014-01-06T16:57:51Z" class="date"
+                itemprop="datePublished">
+              06 Jan 2014
+            </time>
+            <p itemprop="name headline">How Backbone.js changed my life</p>
+          </div>
+        </a>
+      </li>
+    
+      <li itemscope itemtype="http://schema.org/BlogPosting">
+        <a href="/2014/01/perception-of-design.html" itemprop="url">
+          <div class="p-wrap">
+            <time datetime="2014-01-05T16:57:51Z" class="date"
+                itemprop="datePublished">
+              05 Jan 2014
+            </time>
+            <p itemprop="name headline">Perception of design, a developer point of view</p>
+          </div>
+        </a>
+      </li>
+    
+      <li itemscope itemtype="http://schema.org/BlogPosting">
+        <a href="/2014/01/going-back-2013.html" itemprop="url">
+          <div class="p-wrap">
+            <time datetime="2014-01-03T16:57:51Z" class="date"
+                itemprop="datePublished">
+              03 Jan 2014
+            </time>
+            <p itemprop="name headline">Going back on 2013; quite an incredible year</p>
+          </div>
+        </a>
+      </li>
     
   </ul>
 </div>
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
 
-    </body>
+    </main> <!-- MAIN -->
+
+    <footer>
+      <small>Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; John Doge</small>
+    </footer>
+
+    <script src="/js/main.js"></script>
+    
+    
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-47727049-1', 'm3xm.github.io');
+        ga('send', 'pageview');
+      </script>
+    
+  </body>
 </html>
+
+
