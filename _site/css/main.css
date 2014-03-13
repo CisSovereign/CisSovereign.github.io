@@ -95,7 +95,6 @@ a:hover   { color: #444; }
 
 header {
   width: 100%;
-  background: #fff;
 }
 
 header .h-wrap {
@@ -220,7 +219,8 @@ header .h-wrap .close .lines::after {
   max-height: 0;
   overflow: hidden;
   padding: 0px 40px;
-  background: #fafafa;
+  background: #69A3F1;
+  color: white;
   border-bottom: 0px solid #f1f1f1;
   -webkit-transition: max-height .35s ease,
                       padding-top .35s ease,
@@ -255,6 +255,7 @@ header .h-wrap .close .lines::after {
 #off-canvas #bio h1 {
   font-size: 140%;
   margin-top: 0;
+  color: white;
 }
 
 #off-canvas #bio p {
@@ -611,4 +612,21 @@ section#single-wrap img {
 
   .highlight { padding: 10px 5px; margin: 30px 20px 40px; }
 
+}
+
+/* My styles */
+
+.header_icon {
+
+}
+
+#main_header_image {
+  background: url("../assets/img/goldengate.jpg") center no-repeat;
+  padding: 0 0 150px 0;
+}
+
+.name_header h3 {
+  color:white;
+  font-family: 'ProximaNovaBold';
+  font-size: 2.5em;
 }
