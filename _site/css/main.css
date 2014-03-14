@@ -330,10 +330,10 @@ footer small { text-transform: uppercase; }
 
 
 ul.posts { color: #236CC1; overflow: hidden; }
-ul.posts li { border-bottom: 1px solid #4492EC; }
+ul.posts li {}
 ul.posts li:last-child { border-bottom: none; }
 ul.posts li .p-wrap {padding: 50px 40px; transition: all .15s ease-in; }
-ul.posts li .p-wrap:hover { padding-left: 50px; }
+ul.posts li .p-wrap:hover { padding-left: 70px; }
 ul.posts li .p-wrap:active { }
 ul.posts li .p-wrap:hover::after { content:'\2192'; margin-left: 10px; }
 ul.posts li .p-wrap p { display: inline; margin-bottom: 0; }
@@ -621,12 +621,27 @@ section#single-wrap img {
 }
 
 #main_header_image {
-  background: url("../assets/img/goldengate.jpg") center no-repeat;
+  background: url("../assets/img/goldengate.png") center no-repeat;
   padding: 0 0 150px 0;
+  background-size: cover;
 }
 
 .name_header h3 {
   color:white;
   font-family: 'ProximaNovaBold';
   font-size: 2.5em;
+}
+
+.name_header p {
+  font-family: 'JubilatRegular';
+  color: white;
+}
+
+.p-wrap {
+  text-align: center;
+}
+
+.p-wrap p {
+  text-align: center;
+  color: black;
 }
