@@ -100,6 +100,7 @@
     </footer>
 
     <script src="/js/main.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
       <script>
@@ -110,6 +111,20 @@
 
         ga('create', 'UA-47727049-1', 'm3xm.github.io');
         ga('send', 'pageview');
+
+        		$(window).scroll(function() {
+			// The text
+				var $welcomeTxt = $('#main_header_image');
+
+			//Get scroll position of window
+				var windowScroll = $(this).scrollTop();
+
+			//Slow scroll of social div and fade it out
+				$welcomeTxt.css({
+				'background-position' : "50%" + (windowScroll / 2) + "px"
+
+				});
+			});
       </script>
 
   </body>
