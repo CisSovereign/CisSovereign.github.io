@@ -51,6 +51,7 @@ src: url(../assets/fonts/Jubilat-Bold.otf);
 
 
 
+
 /* Global Reset */
 
 * {
@@ -329,15 +330,15 @@ footer small { text-transform: uppercase; }
 
 
 ul.posts { color: #236CC1; overflow: hidden; }
-ul.posts li { border-bottom: 1px solid #4492EC; }
+ul.posts li { border-bottom: none; }
 ul.posts li:last-child { border-bottom: none; }
 ul.posts li .p-wrap {padding: 50px 40px; transition: all .15s ease-in; }
 ul.posts li .p-wrap:hover { padding-left: 50px; }
 ul.posts li .p-wrap:active { }
 ul.posts li .p-wrap:hover::after { content:'\2192'; margin-left: 10px; }
 ul.posts li .p-wrap p { display: inline; margin-bottom: 0; }
-ul.posts li .date { color: #2671C8; padding-right: 20px; }
-ul.posts li a { color: #fff; text-decoration: none; }
+ul.posts li .date { color: #D8D8D8; padding-right: 20px; }
+ul.posts li a { color: #58A6F3; text-decoration: none; }
 
 
 /*****************************************************************************/
@@ -542,10 +543,37 @@ section#single-wrap img {
 
 /* Added by Collin */
 
-.name_header {
+.main_header {
+  padding-bottom: 150px;
+  background: #58A6F3;
+
+
+}
+
+.image_header_text {
   text-align: center;
 }
 
+.image_header_text h2 {
+  color: white;
+  padding-top: 30px;
+}
+
+.footer_social_media li{
+  display: inline-block;
+}
+
+.footer_social_media a {
+  color:#444;
+}
+
+.footer_social_media li:hover:nth-child(1) {
+  color: red;
+}
+
+.footer_social_media li:hover:nth-child(2) {
+  color: blue;
+}
 
 /*****************************************************************************/
 /*
@@ -583,6 +611,7 @@ section#single-wrap img {
   header .h-wrap { padding: 30px 20px; }
   ul.posts li .p-wrap { padding: 20px; }
   ul.posts li .p-wrap:hover { background: #67AAF7; padding-left: 20px; }
+  ul.posts li a:hover {color:white;}
   #off-canvas { padding: 0 20px; }
   #off-canvas.toggled { padding: 20px; }
   #off-canvas #bio { width: 100%; }

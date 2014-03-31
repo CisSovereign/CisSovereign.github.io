@@ -16,6 +16,15 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
     <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
     <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
+<style>
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+font-family: 'entypo', sans-serif;
+}
+</style>  
+
 </head>
 
     <body>
@@ -79,10 +88,11 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
 
     <footer>
       <ul class="footer_social_media">
-        <li>Dribbble</li>
-        <li>Dribbble</li>
-        <li>Dribbble</li>
-        <li>Dribbble</li>
+        <a href=""><li class="entypo-github"></li></a>
+        <a href=""><li class="entypo-dribbble"></li></a>
+        <a href=""><li class="entypo-twitter"></li></a>
+        <a href=""><li class="entypo-linkedin"></li></a>
+        <a href=""><li class="entypo-doc-text-inv"></li></a>
       </ul>
       <small>Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; Collin Hartigan</small>
     </footer>
@@ -98,7 +108,10 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
 
         ga('create', 'UA-47727049-1', 'm3xm.github.io');
         ga('send', 'pageview');
+
+
       </script>
+
     
   </body>
 </html>
