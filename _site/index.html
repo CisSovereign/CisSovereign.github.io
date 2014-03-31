@@ -33,26 +33,19 @@
         	</div>
         </div>
 
-        <header id="main_header_image">
+        <header>
         	<div class="h-wrap">
             	<h1 class="title"><a href="/" title="Back to Homepage"><img src="/assets/img/collinicon.jpg" class="header_icon"></a></h1>
             	<a class="menu-icon" title="Open Bio"><span class="lines"></span></a>
-            </div>
-
-            <div class="name_header">
-              <h3>Collin Hartigan's Blog</h3>
-              <p>Thoughts Feelings Etc</h3>
+              <h1>Hiiiiii</h1>
             </div>
         </header>
 
         <main>
 
 
-<div id="home">
-
-
   <ul class="posts">
-
+    
       <li itemscope itemtype="http://schema.org/BlogPosting">
         <a href="/2014/01/welcome-to-jekyll.html" itemprop="url">
           <div class="p-wrap">
@@ -64,7 +57,7 @@
           </div>
         </a>
       </li>
-
+    
       <li itemscope itemtype="http://schema.org/BlogPosting">
         <a href="/2014/01/hikari-styling-guide.html" itemprop="url">
           <div class="p-wrap">
@@ -76,7 +69,7 @@
           </div>
         </a>
       </li>
-
+    
       <li itemscope itemtype="http://schema.org/BlogPosting">
         <a href="/2014/01/setting-up-jekyll-on-github-pages.html" itemprop="url">
           <div class="p-wrap">
@@ -88,7 +81,7 @@
           </div>
         </a>
       </li>
-
+    
   </ul>
 </div>
 
@@ -96,13 +89,18 @@
     </main> <!-- MAIN -->
 
     <footer>
+      <ul class="footer_social_media">
+        <li>Dribbble</li>
+        <li>Dribbble</li>
+        <li>Dribbble</li>
+        <li>Dribbble</li>
+      </ul>
       <small>Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; Collin Hartigan</small>
     </footer>
 
     <script src="/js/main.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
+    
+    
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -111,21 +109,8 @@
 
         ga('create', 'UA-47727049-1', 'm3xm.github.io');
         ga('send', 'pageview');
-
-        		$(window).scroll(function() {
-			// The text
-				var $welcomeTxt = $('#main_header_image');
-
-			//Get scroll position of window
-				var windowScroll = $(this).scrollTop();
-
-			//Slow scroll of social div and fade it out
-				$welcomeTxt.css({
-				'background-position' : "50%" + (windowScroll / 2) + "px"
-
-				});
-			});
       </script>
-
+    
   </body>
 </html>
+
