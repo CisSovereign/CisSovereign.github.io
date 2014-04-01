@@ -1,64 +1,25 @@
 ---
 layout: post
-title:  "Welcome to my new blog"
-date:   2014-03-31 0:14:51
+title:  "3 Questions For Entrepreneurial Ideation"
+date:   2014-03-31 11:14:51
 ---
 
-But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
+The ideation process for entrepreneurial endeavors is often times the most glorified process of the start-up proces. In movies it is seen as the **'ah-ha!'** moment that magically comes said individual. But this is rarely the case, and if it is, the idea is usually lackluster at best.
 
->Good design is as little design as possible, said Dieter. Use quotations very carefully; especially if you don't understand them.
+**A truly good ideation process is hard.**
 
-No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.
+There are some hard questions to keep in the forefront of ones mind when tackling a new endeavor. Here are some of my favorites:
 
-* Bullet points are so fancy
-* Easy to read, they make you look like a pro
-* Even when completely random
+# Are we streamlining a process or inventing a better one?
 
-In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.
+This may be a personal preference for business opportunities, but I would argue that nearly all businesses fall into one of these two categories. The current standing model would have you believe start-ups are all about solving a pain or need. Not so. Streamlining a process is often-times the best business model out there. Do it right, remove steps from a process and you'll have your user group.
 
-1. Ooh, and with numbers, it's even fancier
-2. It's like 1, 2, 3, did you see?
-3. Crazy stuff all around us; scary
+# Is there an automation opportunity here?
 
-There's nothing like a good block of code! Especially when picked randomly out of Github ([styledocco.js](https://github.com/jacobrask/styledocco/blob/master/styledocco.js)).  
+Getting any business operational and profitable is hard. Don't make it harder. This applies to not only the tech world but most industries. How can we get more with less capital, effort, and most importantly, time.
 
-{% highlight js %}
-var separate = function(css) {
-  var lines = css.split('\n');
-  var docs, code, line, blocks = [];
-  while (lines.length) {
-    docs = code = '';
+# How can we induce addictive behavior?
 
-    while (lines.length && checkType(lines[0]) === 'single') {
-      docs += formatDocs(lines.shift());
-    }
+This one is far too often overlooked, perhaps for the fact that it is extremely challenging. What high level behaviors can be discovered that an audience will want to repeat over and over? It's one thing to get them there, another to get them to return a second time.  
 
-    if (lines.length && checkType(lines[0]) === 'multistart') {
-      while (lines.length) {
-        line = lines.shift();
-        docs += formatDocs(line);
-        if (checkType(line) === 'multiend') break;
-      }
-    }
-    while (lines.length && (checkType(lines[0]) === 'code' || checkType(lines[0]) === 'multiend')) {
-      code += formatCode(lines.shift());
-    }
-    blocks.push({ docs: docs, code: code });
-  }
-  return blocks;
-};
-{% endhighlight %}
-
-<img src="{{ site.baseurl }}/assets/img/img2.jpg">
-
-# Heading 1
-Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
-
-## Heading 2
-But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
-
-### Heading 3
-In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.
-
-#### Heading 4
-But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted.
+* Check out the <a href="http://dschool.stanford.edu/">Stanford d.school</a> for some awesome ideation experiences.
