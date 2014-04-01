@@ -4,7 +4,7 @@ title:  "3 Questions For Entrepreneurial Ideation"
 date:   2014-03-31 11:14:51
 ---
 
-The ideation process for entrepreneurial endeavors is often times the most glorified process of the start-up proces. In movies it is seen as the **'ah-ha!'** moment that magically comes said individual. But this is rarely the case, and if it is, the idea is usually lackluster at best.
+The ideation process for entrepreneurial endeavors is often times the most glorified process of the start-up process. In movies it is seen as the **'ah-ha!'** moment that magically comes said individual. But this is rarely the case, and if it is, the idea is usually lackluster at best.
 
 **A truly good ideation process is hard.**
 
