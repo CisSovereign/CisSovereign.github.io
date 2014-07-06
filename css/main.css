@@ -601,6 +601,48 @@ section#single-wrap img {
     animation-delay: 1.5s;
 }
 
+.email_subscribe {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.item {
+  text-align: center;
+  color: #e74c3c;
+}
+
+.signup_modal {
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.signup_confirmation {
+  display: block;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+
+.signup_confirmation h1 {
+  color: white;
+  padding-bottom: 10px;
+
+}
+
+.signup_confirmation h3 {
+  color: white;
+  padding-bottom: 50px;
+}
+
+.signup_show {
+  display: block;
+}
+
 /*****************************************************************************/
 /*
 /* Media Queries

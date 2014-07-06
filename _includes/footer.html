@@ -1,5 +1,21 @@
     </main> <!-- MAIN -->
 
+    <div class="signup_modal">
+      <div class="signup_confirmation">
+        <h1>Thanks!</h1>
+        <h3>Enjoy<h3>
+        <img src="/assets/img/colliniconbig.png" class="bigIcon">
+      </div>
+    </div>
+
+
+    <div class="email_subscribe">
+      <p>Subscribe to stay up to date with all entries</p>
+      <input id="email" placeholder="Email Addess">
+      <button id="target">Subscribe</div>
+        <p class="item">Please enter a valid email address</p>
+    </div>
+
     <footer>
       <ul class="footer_social_media">
         <a href="https://github.com/CisSovereign"><li class="entypo-github"></li></a>
@@ -11,7 +27,11 @@
       <small>Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; {{ site.author }}</small>
     </footer>
 
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/main.js"></script>
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.12.min.js"></script>
+    <script src="{{ site.baseurl }}/js/init.parse.js"></script>
+    <script src="{{ site.baseurl }}/js/jquery.parse.js"></script>
     {% comment %} Google Analytics {% endcomment %}
     {% if site.ga_tracking_id and site.ga_domain %}
       <script>
@@ -23,22 +43,39 @@
         ga('create', '{{ site.ga_tracking_id }}', '{{ site.ga_domain }}');
         ga('send', 'pageview');
 
+      (function($){
 
+    $.fn.extend({
+
+        addTemporaryClass: function(className, duration) {
+            var elements = this;
+            setTimeout(function() {
+                elements.removeClass(className);
+            }, duration);
+
+            return this.each(function() {
+                $(this).addClass(className);
+            });
+            }
+          });
+
+        })(jQuery);
+
+
+      $(".item").hide();
       $("#target").click(function(){
         var email = $('#email').val();
         var pattern = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i
         if(email  === '' || !pattern.test(email)) {
           $(".item").show();
-          $(".item").addTemporaryClass("wiggle", 1000);
+          //$(".item").addTemporaryClass("wiggle", 1000);
         } else {
           $.parse.post('email', {
             email : email
           },function(json){
-            var date = new Date();
-            date.setTime(date.getTime() + (100 * 24 * 60 * 60 * 1000));
-            expires = "; expires=" + date.toGMTString();
-             document.cookie = escape(json.objectId) + expires + "; path=/";
-            window.location = 'reg/' + json.objectId;
+            //window.location = 'whoot';
+            $(".signup_confirmation").addTemporaryClass("signup_show", 1000);
+            $('#email').val('');
           });
         }
   });

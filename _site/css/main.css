@@ -572,25 +572,12 @@ section#single-wrap img {
   color:#444;
 }
 
-.footer_social_media a:hover:nth-child(1) {
-  color: #e74c3c;
+.footer_social_media li:hover:nth-child(1) {
+  color: red;
 }
 
-.footer_social_media a:hover:nth-child(2) {
-  color: #EA4C89;
-}
-
-
-.footer_social_media a:hover:nth-child(3) {
-  color: #3498DB;
-}
-
-.footer_social_media a:hover:nth-child(4) {
-  color: #9b59b6;
-}
-
-.footer_social_media a:hover:nth-child(5) {
-  color: #2ecc71;
+.footer_social_media li:hover:nth-child(2) {
+  color: blue;
 }
 
 .header_icon {
@@ -612,6 +599,48 @@ section#single-wrap img {
   animation-fill-mode: both;
   -webkit-animation-delay: 1.5s; /* Safari and Chrome */
     animation-delay: 1.5s;
+}
+
+.email_subscribe {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.item {
+  text-align: center;
+  color: #e74c3c;
+}
+
+.signup_modal {
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.signup_confirmation {
+  display: block;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+
+.signup_confirmation h1 {
+  color: white;
+  padding-bottom: 10px;
+
+}
+
+.signup_confirmation h3 {
+  color: white;
+  padding-bottom: 50px;
+}
+
+.signup_show {
+  display: block;
 }
 
 /*****************************************************************************/
