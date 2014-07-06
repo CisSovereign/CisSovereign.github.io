@@ -572,12 +572,25 @@ section#single-wrap img {
   color:#444;
 }
 
-.footer_social_media li:hover:nth-child(1) {
-  color: red;
+.footer_social_media a:hover:nth-child(1) {
+  color: #e74c3c;
 }
 
-.footer_social_media li:hover:nth-child(2) {
-  color: blue;
+.footer_social_media a:hover:nth-child(2) {
+  color: #EA4C89;
+}
+
+
+.footer_social_media a:hover:nth-child(3) {
+  color: #3498DB;
+}
+
+.footer_social_media a:hover:nth-child(4) {
+  color: #9b59b6;
+}
+
+.footer_social_media a:hover:nth-child(5) {
+  color: #2ecc71;
 }
 
 .header_icon {
