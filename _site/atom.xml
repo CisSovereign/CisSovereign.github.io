@@ -4,11 +4,124 @@
   <id>http://m3xm.github.io</id>
   <link href="http://m3xm.github.io" />
   <link href="http://m3xm.github.io/atom.xml" rel="self" />
-  <updated>2014-07-05T23:26:25-07:00</updated>
+  <updated>2014-07-05T23:57:16-07:00</updated>
   <rights>Copyright 2014, Collin Hartigan</rights>
   <author>
     <name>Collin Hartigan</name>
   </author>
+  
+    <entry>
+      <title>Redesigning Microsoft Online</title>
+      <link href="http://m3xm.github.io/2014/05/redesigning-microsoft-online.html" />
+      <summary type="html">&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/fit/t/1400/1120/gradv/29/81/55/1*HPD5RhW21tKVBil_hrLjmw.png&quot; alt=&quot;Collin Hartigan Redesigning Microsoft&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;As a fun project I decided to redesign Microsoft’s online presence. Why?
+Well for one they tend to be treated like second-class citizens in the
+design market. Everyone is always trying to redesign Dribbble or
+Netflix. How about Microsoft this time?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I drew a &lt;strong&gt;ton&lt;/strong&gt; of inspiration from Amber Creative’s wonderful &lt;a href=&quot;http://ambercreative.co/experiments/apple-store/#0&quot;&gt;redesign of
+the Apple store&lt;/a&gt; and of Gilles Bertaux’s &lt;a href=&quot;https://medium.com/@gilles_bertaux/redesigning-imdb-2e9e865dd83&quot;&gt;Redesign of IMDB&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;One of the points I must make is that this is a &lt;strong&gt;functioning
+website/product&lt;/strong&gt;. All of the features shown are implemented in the live
+design. You can view it here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://collinhartigan.com/microsoft-redesign/&quot;&gt;Microsoft Redesign Live&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1&gt;Let’s Make It Fun&lt;/h1&gt;
+
+&lt;p&gt;One observation I’d had about Microsoft was that they felt too buttoned
+up, too old school. The amount of information presented on online stores
+is at times (especially in Microsoft’s case) overkill. My goal wasto
+simplify this into sections that a user could easily navigate.&lt;/p&gt;
+
+&lt;p&gt;I divided the page up into 3 sections:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Main Header&lt;/li&gt;
+&lt;li&gt;Product Body&lt;/li&gt;
+&lt;li&gt;Large Footers&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Going with the &lt;a
+href=&quot;http://www.forbes.com/fdc/welcome_mjx.shtml&quot;&gt;rule of 3&lt;/a&gt; is
+always good. Enough information to entice a viewer and easy enough to
+digest in a pass or two.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1095/1*SnMpj6IalnBvLCDLRkYO1w.png&quot; alt=&quot;Collin Hartigan Redesigning Microsoft&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/877/1*op-5x6mm8rAWVZQtKcDmnQ.png&quot; alt=&quot;Collin Hartigan Redesigning Microsoft&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img
+src=&quot;https://d262ilb51hltx0.cloudfront.net/max/700/1*
+b2TAZGO73gIwfJWMY99liw.png&quot; alt=&quot;Collin Hartigan Redesigning Microsoft&quot;&gt;&lt;/p&gt;
+
+&lt;h1&gt;Menus Everywhere!&lt;/h1&gt;
+
+&lt;p&gt;One of the other important factors in these large sites is navigation.
+My solution was to implement a series of 3 different sub-menus along
+with the simple main navigation. Perhaps too many but it works for this
+purpose.&lt;/p&gt;
+
+&lt;p&gt;The main menu is simple, consisting of 4 different sections and a search
+bar. These navigate the simple high-level areas of the site.&lt;/p&gt;
+
+&lt;p&gt;&lt;img
+src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1237/1*BKu-Nnfp-
+DAPRhg7yMW2aw.png&quot; alt=&quot;Collin Hartigan Redesigning Microsoft&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img
+src=&quot;https://d262ilb51hltx0.cloudfront.net/max/800/1*cyyaj-
+0FM004syry9sejpA.png&quot; alt=&quot;Collin Hartigan Redesigning Microsoft&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The first sub-menu (shown below) is actually a child of the above menu. Each section of the menu is outfitted with a custom font icon and description of what is to be found in each section.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1102/1*Sy9SjpAvndgnHXexdoZwdQ.png&quot; alt=&quot;Collin Hartigan Redesigning Microsoft&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1102/1*WZtLqGC6YcC0dAh9vsz4Xg.png&quot; alt=&quot;Collin Hartigan Redesigning Microsoft&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;A few of the fonts are hand made while the bulk being provided by &lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/icons/&quot;&gt;Font Awesome&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The rest of the menus are full screen modals that respond to each corresponding section.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1099/1*Et60DlVTul7XXjyJA7mHWA.png&quot; alt=&quot;Collin Hartigan Redesigning Microsoft&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1103/1*3qK7VPoaVSegFU4D5rE_2g.png&quot; alt=&quot;Collin Hartigan Redesigning Microsoft&quot;&gt;&lt;/p&gt;
+
+&lt;h1&gt;Imagery&lt;/h1&gt;
+
+&lt;p&gt;One of the real strengths of Apple’s website is their stunning images. Clear and crisp, the photos enhance the products themselves without using much text at all. Microsoft really struggles with this.&lt;/p&gt;
+
+&lt;p&gt;I made an effort to bring the products more to the center of the site. All images used of products were taken directly from the images currently on the Microsoft site, just repurposed in a more compelling manner.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/1400/1*5nzAxQRT9mnnbd2biiLATA.jpeg&quot; alt=&quot;Collin Hartigan Redesigning Microsoft&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/900/1*_kuUALHoDr6yZRyQzd1jGQ.png&quot; alt=&quot;Collin Hartigan Redesigning Microsoft&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/800/1*rtmu6K41eCHiKoa9IYoiAA.png&quot; alt=&quot;Collin Hartigan Redesigning Microsoft&quot;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1&gt;Final Thoughts&lt;/h1&gt;
+
+&lt;p&gt;I did make sure to include some fun animation on the page in the footer as well as a full background video for the Titanfall section. I do enjoy the use of those even practical shopping sites like Mircrosoft’s.&lt;/p&gt;
+
+&lt;p&gt;While this is a fictional work and not a real Microsoft site, it is encouraging to see these types of projects being done with now. They’re great inspirational pieces to work from.&lt;/p&gt;
+
+&lt;p&gt;The site is live here: &lt;a href=&quot;http://collinhartigan.com/microsoft-redesign/&quot;&gt;Microsoft Redesign Live&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1&gt;Thanks&lt;/h1&gt;
+</summary>
+      <id>http://m3xm.github.io/2014/05/redesigning-microsoft-online.html</id>
+      <updated>2014-05-27T11:14:51Z</updated>
+      <author>
+        <name>Collin Hartigan</name>
+      </author>
+    </entry>
   
     <entry>
       <title>A Journey Through Monument Valley</title>
@@ -169,15 +282,23 @@ mechanics are smooth and react as you’d expect them to.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;strong&gt;For only 1.5 hours of gameplay, Monument Valley packs a moving story.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For only 1.5 hours of gameplay, Monument Valley packs a moving
+story.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;What a pleasure it was to experience this game. I highly recommend you follow suit and do the same. Money well spent.&lt;/p&gt;
+&lt;p&gt;What a pleasure it was to experience this game. I highly recommend you
+follow suit and do the same. Money well spent.&lt;/p&gt;
 
-&lt;p&gt;As time passes, I look forward to hearing gamers’ interpretations of the story and meaning behind this short epic. My gut tells me this will have a lasting impact on the design principles of mobile gaming.&lt;/p&gt;
+&lt;p&gt;As time passes, I look forward to hearing gamers’ interpretations of the
+story and meaning behind this short epic. My gut tells me this will have
+a lasting impact on the design principles of mobile gaming.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/700/1*_CYRyHHTGVXTC-ywa-dB8Q.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img
+src=&quot;https://d262ilb51hltx0.cloudfront.net/max/700/1*_CYRyHHTGVXTC-ywa-
+dB8Q.png&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Monument Valley is available on the &lt;a href=&quot;https://itunes.apple.com/us/app/monument-valley/id728293409?mt=8&quot;&gt;App Store for $3.99.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monument Valley is available on the &lt;a
+href=&quot;https://itunes.apple.com/us/app/monument-valley/id728293409?mt=8&quot;&gt;
+App Store for $3.99.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </summary>
       <id>http://m3xm.github.io/2014/04/a-journey-through-monument-valley.html</id>
       <updated>2014-04-04T11:14:51Z</updated>

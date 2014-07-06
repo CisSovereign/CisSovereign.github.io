@@ -154,14 +154,22 @@ mechanics are smooth and react as you’d expect them to.
 
 ***
 
-**For only 1.5 hours of gameplay, Monument Valley packs a moving story.**
+**For only 1.5 hours of gameplay, Monument Valley packs a moving
+story.**
 
-What a pleasure it was to experience this game. I highly recommend you follow suit and do the same. Money well spent.
+What a pleasure it was to experience this game. I highly recommend you
+follow suit and do the same. Money well spent.
 
-As time passes, I look forward to hearing gamers’ interpretations of the story and meaning behind this short epic. My gut tells me this will have a lasting impact on the design principles of mobile gaming.
+As time passes, I look forward to hearing gamers’ interpretations of the
+story and meaning behind this short epic. My gut tells me this will have
+a lasting impact on the design principles of mobile gaming.
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/700/1*_CYRyHHTGVXTC-ywa-dB8Q.png">
+<img
+src="https://d262ilb51hltx0.cloudfront.net/max/700/1*_CYRyHHTGVXTC-ywa-
+dB8Q.png">
 
-**Monument Valley is available on the <a href="https://itunes.apple.com/us/app/monument-valley/id728293409?mt=8">App Store for $3.99.</a>**
+**Monument Valley is available on the <a
+href="https://itunes.apple.com/us/app/monument-valley/id728293409?mt=8">
+App Store for $3.99.</a>**
 
 
